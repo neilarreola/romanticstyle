@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+  <head>
+     <meta charset="utf-8"/>
+     <meta name="description" content="Resumen del contenido de la página">   
+     <title>Título de la página</title>
+     <link rel="stylesheet" href="style.css" type="text/css"/>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box img" id="img">
+        <img src="src/gato.png" frameborder="0"></img>
+      </div>
+      <div id="videoContainer" style="display: none;">
+        <video id="miVideo" width="600" controls>
+            <source src="src/kisscat.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+      </div>
+
+      <div class="box question" id="question">
+        <h1>Quieres ser mi <a>Valentin?</a></h1>
+      </div>
+      <div class="box button">
+        <button class="btn no"  id="miBotonNo">No le piques aqui</button>
+        <button class="btn yes" id="miBotonYes">Por su pollo que si!</button>
+      </div>
+    </div>
+   
+   <script src="index.js"></script>
+  </body>
+
+</html>
